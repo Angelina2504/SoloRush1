@@ -1,0 +1,64 @@
+*{
+background-color: rgb(212, 234, 201);
+margin: auto;
+padding: auto;
+
+@media screen and (max-width: 768px){
+    
+}
+@media screen and (min-width:768px) {
+    
+}
+
+}
+nav {
+    background-color: rgb(95, 27, 33);
+    display: flex;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+
+}
+
+main{
+    display:grid;
+    gap: 30px;
+}
+
+main img{
+    height: auto ;
+    width: 150px;
+    display: flex;
+}
+
+.présentation{
+    margin: auto;
+    display: inline-block;
+}
+.présentation img {
+
+    height: auto;
+    width: 100px;
+}
+
+.project{
+    margin: auto;  
+    display: inline-block;
+}
+
+.project img{
+    height: auto;
+    width: 100px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 4;
+    
+   
+}
+
+footer{
+    background-color: rgb(95, 27, 33);
+    height: 100px;
+}
